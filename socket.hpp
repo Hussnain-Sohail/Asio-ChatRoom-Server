@@ -36,7 +36,7 @@ public:
         return socket;
     }
 
-    std::string give_socket_id() noexcept
+    const std::string give_socket_id() noexcept
     {
         return socket_id;
     }
